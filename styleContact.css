@@ -1,0 +1,80 @@
+/* Modifications du html entier */
+html { 
+    caret-color: transparent;
+    text-rendering: geometricPrecision;
+}
+
+/* Modifications du body entier */
+body {
+    display: block;
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Modifications du h1 */
+h1 {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0px 0px 3px black;
+    background-color: #8650508f;
+}
+
+/* Modifications du menu */
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+/* Modifications des liens du menu */
+#menu a {
+    text-decoration: none;
+    color: black;
+    border: solid 2px black;
+    border-radius: 25px;
+    padding: 1rem;
+    box-shadow: 0px 0px 3px black;
+    background-color: #8650508f;
+}   
+
+/* Modifications de l'élement p1*/
+#p1 {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 3px black;
+    background-color: #8650508f;
+}
+
+/* Modifications de la classe contact-container */
+.contact-container {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 4.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 0px 0px 3px black;
+    background-color: #8650508f;
+}
+
+
+/* Modifications du footer */
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

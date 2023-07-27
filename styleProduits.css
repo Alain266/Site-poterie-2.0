@@ -1,0 +1,130 @@
+/* Modifications du html entier */
+html {
+    caret-color: transparent;
+    text-rendering: geometricPrecision;
+}
+
+/* Modifications du body entier */
+body {
+    display: block;
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Modifications du h1 */
+h1 {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0px 0px 3px black;
+    background-color: #8650508f;
+}
+
+/* Modifications du menu */
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+
+/* Modifications de la section main */
+#menu a {
+    text-decoration: none;
+    color: black;
+    border: solid 2px black;
+    border-radius: 25px;
+    padding: 1rem;
+    box-shadow: 0px 0px 3px black;
+    background-color: #8650508f;
+}
+
+/* Modifications de la section main */
+.sectionMain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 5.4rem;
+    height: max-content;
+    margin-left: 1px;
+}    
+
+/* Modifications de l'élément video */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    gap: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: max-content;
+    width: 94%;
+    max-width: 1080px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 25px;
+}
+
+/* Modifications de la class item */
+.item {
+    display: grid;
+    grid-template-columns: 1fr;;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: auto;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: auto;
+    width: 90%;
+    box-shadow: 0px 0px 3px black;
+    background-color: #8650508f;
+}
+
+/* Modifications des images de la class item */
+.item img {
+    margin: auto;
+    margin-top: 1rem;
+    height: 80%;
+    width: 75%;
+    border-radius: 22px;
+    box-shadow: 0px 0px 10px black;
+}
+
+/* Modifications de la classe nom */
+.nom  {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2.33rem;
+}
+
+/* Modifications de la classe btn */
+.btn {
+    margin: auto;
+    margin-bottom: 1rem;
+    color: black;
+    border: solid 2px black;
+    border-radius: 25px;
+    padding: 1rem;
+    box-shadow: 0px 0px 3px black;
+    width: 50%;
+}
+
+/* Modifications du footer */
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,87 @@
+/* Modifications du html entier */
+html { 
+    caret-color: transparent;
+    text-rendering: geometricPrecision;
+}
+
+/* Modifications du body entier */
+body {
+    display: block;
+    margin: 0;
+    background-color: antiquewhite;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Modifications du h1 */
+h1 {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0px 0px 3px black;
+    background-color: #8650508f;
+}
+
+/* Modifications du menu */
+#menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+/* Modifications des liens du menu */
+#menu a {
+    text-decoration: none;
+    color: black;
+    border: solid 2px black;
+    border-radius: 25px;
+    padding: 1rem;
+    box-shadow: 0px 0px 3px black;
+    background-color: #8650508f;
+}
+
+/* Modifications de la section main */
+.sectionMain {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}    
+
+/* Modifications de l'élément video */
+#video {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin: auto;
+    margin-top: 1rem;
+    width: 94%;
+    max-width: 1080px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 25px;   
+}    
+
+/* Modifications de l'élement p1*/
+#p1 {
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 5.4rem;
+    box-shadow: 0px 0px 3px black;
+    background-color: #8650508f;
+}
+
+/* Modifications du footer */
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

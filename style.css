@@ -26,6 +26,16 @@ h1 {
     padding: 1rem;
     }
 
+#video {
+    display: block;
+    margin: auto;
+    margin-top: 1em;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 25px;
+    
+}    
+
 footer {
     position: fixed;
     bottom: 0px;

@@ -40,7 +40,13 @@ h1 {
     padding: 1rem;
     box-shadow: 0px 0px 3px black;
     background-color: #8650508f;
+    transition: transform 0.3s ease;
 }   
+
+/* Modifications des liens du menu quand on les survole */
+#menu a:hover {
+    transform: scale(1.1);
+}
 
 /* Modifications de l'élement p1*/
 #p1 {

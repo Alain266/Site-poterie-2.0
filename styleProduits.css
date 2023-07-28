@@ -41,6 +41,12 @@ h1 {
     padding: 1rem;
     box-shadow: 0px 0px 3px black;
     background-color: #8650508f;
+    transition: transform 0.3s ease;
+}
+
+/* Modifications des liens du menu quand on les survole */
+#menu a:hover {
+    transform: scale(1.1);
 }
 
 /* Modifications de la section main */
@@ -69,7 +75,7 @@ h1 {
     border-radius: 25px;
 }
 
-/* Modifications de la class item */
+/* Modifications de la classe item */
 .item {
     display: grid;
     grid-template-columns: 1fr;;
@@ -87,14 +93,36 @@ h1 {
     background-color: #8650508f;
 }
 
-/* Modifications des images de la class item */
+.item:hover {
+    background-color: #863333c0;
+}
+
+/* Modifications des images de la classe item */
 .item img {
     margin: auto;
-    margin-top: 1rem;
     height: 80%;
     width: 75%;
     border-radius: 22px;
     box-shadow: 0px 0px 10px black;
+}
+
+/* Modifications des h4 de la classe item */
+.item h4 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+/* Modifications des p de la classe item */
+.item p {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+    font-size: smaller;
+}
+
+/* Modifications du formulaire de la classe item quand on le survole */
+.item form:hover {
+    transform: scale(1.1);
 }
 
 /* Modifications de la classe nom */
@@ -104,18 +132,6 @@ h1 {
     text-align: center;
     margin: auto;
     margin-bottom: 2.33rem;
-}
-
-/* Modifications de la classe btn */
-.btn {
-    margin: auto;
-    margin-bottom: 1rem;
-    color: black;
-    border: solid 2px black;
-    border-radius: 25px;
-    padding: 1rem;
-    box-shadow: 0px 0px 3px black;
-    width: 50%;
 }
 
 /* Modifications du footer */
